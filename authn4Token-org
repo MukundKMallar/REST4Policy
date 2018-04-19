@@ -1,0 +1,4 @@
+#!/bin/bash
+RESTHOST=malmu06-s10712.ca.com
+RESTPORT=8443
+TOKEN=`curl -k --silent -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' --header 'Authorization: Basic base64-id:password' "https://${RESTHOST}:${RESTPORT}/ca/api/sso/services/login/v1/token" |  awk 'BEGIN {FS="\"";} {print $4;}'`

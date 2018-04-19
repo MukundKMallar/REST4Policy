@@ -1,0 +1,2 @@
+Siteminder1
+com.ca.siteminder.sdk.restapi.SmRestException: SmRestException msgId=SMRESTAPI_403 args=[/SmDomains/mytest4rest], code=403, status=400
